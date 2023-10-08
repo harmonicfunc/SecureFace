@@ -133,3 +133,4 @@ dmypy.json
 
 # Personal
 clipboard.py
+app/label_to_name.csv
