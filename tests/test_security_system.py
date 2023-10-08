@@ -32,7 +32,7 @@ class TestSecuritySystem(unittest.TestCase):
         self.assertTrue(len(processed_image) > 0)
 
     def test_facial_recognition(self):
-        # TODD: Implement this test
+        # TODO: Implement this test
         # Ensure facial recognition works correctly
         # Call the recognize_face method
         # Check if recognized face labels are present in the processed image

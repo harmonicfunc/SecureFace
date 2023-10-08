@@ -23,7 +23,7 @@ def train_face_recognition_model(algorithm='LBPH'):
     # Create a dictionary to map label (numeric) to person's name
     label_to_name = {}
 
-    # TODO
+    # TODO 1
     # Load training data
     # Walk through each sub-folder
     # Assume each sub-folder is a different person
@@ -39,8 +39,9 @@ def train_face_recognition_model(algorithm='LBPH'):
 
     # Save label-to-name mapping to a CSV file
 
-    # TODO
+    # TODO 2
     # Print a summary of the training
+    # Summary could include number of users trained, number of images per user, etc.
     print(f'Training complete. Number of users trained: {len(set(labels))}')
 
 if __name__ == '__main__':

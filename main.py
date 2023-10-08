@@ -14,7 +14,7 @@ def load_existing_model(algorithm):
     return SecuritySystem(algorithm, model_path)
 
 def real_time_detection(security_system):
-    # TODO
+    # TODO 1
     # Capture video from a camera (you can adjust the video source)
     
         # Perform face recognition on the frame
@@ -28,7 +28,7 @@ def batch_processing(security_system):
     val_data_dir = 'val_data'
     predicted_val_data_dir = 'predicted_val_data'
 
-    # TODO
+    # TODO 2
     # Create the 'predicted_val_data' directory if it doesn't exist
     
     # Walk through the 'val_data' directory and perform face recognition on each image
