@@ -134,3 +134,4 @@ dmypy.json
 # Personal
 clipboard.py
 app/label_to_name.csv
+predicted_val_data/
