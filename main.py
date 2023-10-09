@@ -30,18 +30,12 @@ def batch_processing(security_system):
 
     # TODO 2
     # Create the 'predicted_val_data' directory if it doesn't exist
-    
     # Walk through the 'val_data' directory and perform face recognition on each image
-
-                # Get the relative path from 'val_data' to the image
-
-                # Get the directory part (excluding the file name)
-
-                # Create the corresponding directory structure in 'predicted_val_data'
-
-                # Create the output path for the processed image
-
-                # Save the processed image in the corresponding directory
+    # Get the relative path from 'val_data' to the image
+    # Get the directory part (excluding the file name)
+    # Create the corresponding directory structure in 'predicted_val_data'
+    # Create the output path for the processed image
+    # Save the processed image in the corresponding directory
     pass
 
 def main():
