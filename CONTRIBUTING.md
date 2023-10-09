@@ -4,9 +4,15 @@ Thank you for your interest in contributing to the SecureFace Access Control Sys
 
 ## Code of Conduct
 
-Please note that this project follows an [Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
+Please note that this project follows a [Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
 
 ## How to Contribute
+
+### Registering on CONTRIHUB
+
+Before you begin contributing to this project, please make sure to register yourself on [CONTRIHUB](https://sac.mnnit.ac.in/contrihub/). This platform is used to assign and track issues related to this project.
+
+**Note that you must get an issue assigned to you on [CONTRIHUB](https://sac.mnnit.ac.in/contrihub/) before you begin working on it.**
 
 ### Reporting Issues
 
