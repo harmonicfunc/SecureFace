@@ -16,12 +16,20 @@ def load_existing_model(algorithm):
 def real_time_detection(security_system):
     # TODO 1
     # Capture video from a camera (you can adjust the video source)
+    video_capture = cv2.VideoCapture(0)
     
         # Perform face recognition on the frame
+    while(True):
+        _, img = video_capture.read()
+        cv2.imshow("Real Time Face Detection", img)
 
         # Press 'q' to quit
+        if cv2.waitkey(1) & 0xFF == ord('q'):
+            break
 
     # Release the video capture object and close the window
+    video_capture.release()
+    cv2.destroyAllWindows()
     pass
 
 def batch_processing(security_system):
