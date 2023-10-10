@@ -24,7 +24,7 @@ def real_time_detection(security_system):
         cv2.imshow("Real Time Face Detection", img)
 
         # Press 'q' to quit
-        if cv2.waitkey(1) & 0xFF == ord('q'):
+        if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
     # Release the video capture object and close the window
